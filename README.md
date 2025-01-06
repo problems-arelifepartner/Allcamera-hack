@@ -7,4 +7,4 @@ For Windows
 
 For Linux
 
-python3 create_
+python3 create_directories.py
